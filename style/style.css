@@ -12,17 +12,23 @@ header {
 }
 
 
-
-header h2 {
+.welcome {
    margin: 20px;
    padding: 20px;
    display: flex;
    justify-content: center;
 }
 
+.time-left {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 header h3 {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .wrapper {
@@ -37,4 +43,53 @@ header h3 {
     align-items: center;
     height: 30px;
     width: 100px;
+}
+
+.quiz-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.answers-here {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.q-box {
+    box-sizing: border-box;
+    margin: 25px;
+    width: 550px;
+}
+
+.a-box {
+    box-sizing:border-box;
+    margin-bottom: 0px;
+}
+
+.answers-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.answers-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    
+}
+
+
+.submit-button {
+    margin-bottom: 25px;
 }

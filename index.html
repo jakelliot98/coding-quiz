@@ -3,37 +3,53 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width initial-scale=1.0"/>
     <title>CODING QUIZ</title>
     <link rel="stylesheet" href="./style/style.css"/>
+<body>
 
 <header>
  <!--name of the quiz and timer in header-->
 <!--welcome should dissappear when quiz starts-->
 <!--need button to start quiz-->
 <div class="quiz-title">
- <h2 id="quiz-hello">Welcome to the quiz!</h2>
+ <h2 id="quiz-hello" class="welcome">Welcome to the quiz!</h2>
  <h3 id=quiz-name>The Coding Quiz</h3>
+ <h2 id="timer" class="time-left">10:00 remain</h2>
  <div class="wrapper">
  <button class="quiz-button" id="start-quiz">Begin</button>
  </div>
  </div>
 </header>
 
-<body>
+
 <section class="quiz-container" id="quiz-box">
 <div class="q-box" id=quest-cont>
-    <p>Questions will go here?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus sed, quis mollitia, vitae rem temporibus modi maiores corrupti necessitatibus incidunt, architecto fuga debitis consectetur officia minima repellendus ex assumenda quaerat!</p>
     <!--questions will go here-->
 </div>
 
 <div class="a-box" id="ans-cont">
     <!--answer options will go in this div-->
-    <ul class="questions-here" id="question-list">
-        <li class="question" id="que">answer 1</li>
-        <li class="question" id="que">answer 2</li>
-        <li class="question" id="que">answer 3</li>
-        <li class="question" id="que">answer 4</li>
+    <ul class="answers-here" id="answer-list">
+<div class="answers-left">
+        <li class="answer" id="que">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet facilis dicta illo, rerum ipsum excepturi quis officiis, vel sed error nobis veritatis quos blanditiis eos obcaecati, deserunt non. Commodi, ea.
+            <div>
+            <input type="radio" name="choice" class="answer-button"/>
+            </div>
+        </li>
+    <li class="answer" id="que">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, cupiditate, repellendus rerum porro officiis laborum ipsa fuga vero atque modi maiores quos iste unde reprehenderit! Explicabo corporis tempora assumenda optio!
+        <div><input type="radio" name="choice" class="answer-button"/></div>
+    </li>
+</div> 
+<div class="answers-right">        
+        <li class="answer" id="que">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo architecto asperiores, cumque ex est suscipit nostrum odio? Quibusdam dolorum, dolore a sunt similique aspernatur repellat, assumenda fugiat, consectetur numquam error.
+            <div><input type="radio" name="choice" class="answer-button"/></div>
+        </li>
+        <li class="answer" id="que">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus animi sapiente cupiditate optio iure, officia ducimus est illum voluptate nulla. Possimus nostrum et soluta voluptatum rem, hic illo consequatur fuga.
+            <div><input type="radio" name="choice" class="answer-button"/></div>
+        </li>
     </ul>
-    
+</div>    
 </div>
+<button class="submit-button" id="submit">Submit</button>
 </section>
 </body>
 </html>
