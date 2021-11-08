@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+header h2 {
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+header h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.quiz-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+}
